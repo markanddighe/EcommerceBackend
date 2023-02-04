@@ -25,7 +25,7 @@ app.use("/",authrouter)
 // app.use("/",adminrouter)
 
 
-app.get('/', (req, res) => res.send('Home Page Route'));
+app.get('/get', (req, res) => res.send('Home Page Route'));
 
 const PORT=process.env.PORT||3000
 // connect mongo db atlas
