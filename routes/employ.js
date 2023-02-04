@@ -56,7 +56,7 @@ const router=express.Router()
   })
 
 
-  router.get("/get",checkauth ,async (req, res) => {
+  router.get("/api/get",checkauth ,async (req, res) => {
 
     try{
 
